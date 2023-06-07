@@ -2,5 +2,26 @@
     <string name="app_name">SearchCountries2</string>
     <string name="txterror">WE CAN\'T FIND THIS COUNTRY</string>
     <string name="txterror1">Check that you have spelled the name of the country correctly</string>
+<!--
+    <string name="imgPais"></string>
+-->
+
+    <string name="txtvON">Official Name:</string>
+    <string name="txtvCont">Continent:</string>
+    <string name="txtLang">Language:</string>
+    <string name="txtvCap">Capital:</string>
+    <string name="txtvAcro">Acronym:</string>
+    <string name="txtvCur">Currency:</string>
+
+    <string name="txtvProp">Most popular countries in the app</string>
+
+    <!--
+    <string name="imgbBrazil"></string>
+    <string name="imgbChile"></string>
+    <string name="imgbCanada"></string>
+    <string name="imgbJapan"></string>
+     <string name="ImgbSearch"></string>
+-->
+
 
 </resources>

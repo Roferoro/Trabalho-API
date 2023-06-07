@@ -21,7 +21,7 @@
         app:layout_constraintVertical_bias="0.158" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/imgLogo1"
         android:layout_width="269dp"
         android:layout_height="80dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -32,51 +32,71 @@
         app:srcCompat="@drawable/logo" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/imgbBrazil"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#32B898"
-        app:srcCompat="@drawable/brasil"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="254dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.409"
+        app:srcCompat="@drawable/brasil" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/imgbCanada"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#32B898"
-        app:srcCompat="@drawable/canada"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="415dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.668"
+        app:srcCompat="@drawable/canada" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/imgbChile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#32B898"
-        app:srcCompat="@drawable/chile"
-        tools:layout_editor_absoluteX="215dp"
-        tools:layout_editor_absoluteY="254dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.409"
+        app:srcCompat="@drawable/chile" />
 
     <ImageButton
-        android:id="@+id/imageButton4"
+        android:id="@+id/imgbJapan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#32B898"
-        app:srcCompat="@drawable/japan"
-        tools:layout_editor_absoluteX="215dp"
-        tools:layout_editor_absoluteY="415dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.668"
+        app:srcCompat="@drawable/japan" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/txtvProp"
         android:layout_width="137dp"
         android:layout_height="38dp"
-        android:text="Most popular countries in the app"
-        tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="197dp" />
+        android:text="@string/txtvProp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.272" />
 
     <ImageButton
-        android:id="@+id/imageButton5"
+        android:id="@+id/ImgbSearch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#32B898"
@@ -89,20 +109,28 @@
         app:srcCompat="@drawable/search" />
 
     <View
-        android:id="@+id/view2"
+        android:id="@+id/vwbar3"
         android:layout_width="416dp"
         android:layout_height="73dp"
         android:background="#32B898"
-        tools:layout_editor_absoluteX="-3dp"
-        tools:layout_editor_absoluteY="658dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgLogo1"
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageButton
-        android:id="@+id/imageButton6"
+        android:id="@+id/imgbHome2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#32B898"
-        app:srcCompat="@drawable/home"
-        tools:layout_editor_absoluteX="160dp"
-        tools:layout_editor_absoluteY="658dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/home" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
