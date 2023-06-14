@@ -2,7 +2,7 @@
     <string name="app_name">SearchCountries2</string>
     <string name="txterror">WE CAN\'T FIND THIS COUNTRY</string>
     <string name="txterror1">Check that you have spelled the name of the country correctly</string>
-<!--
+    <!--
     <string name="imgPais"></string>
 -->
 
@@ -13,7 +13,10 @@
     <string name="txtvAcro">Acronym:</string>
     <string name="txtvCur">Currency:</string>
 
+    <string name="txtvBrazil"></string>
+
     <string name="txtvProp">Most popular countries in the app</string>
+    <string name="title_activity_countries_screen">countries_screen</string>
 
     <!--
     <string name="imgbBrazil"></string>
