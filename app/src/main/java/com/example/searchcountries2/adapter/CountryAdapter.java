@@ -11,7 +11,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-// import com.bumptech.glide.Glide;
+import com.bumptech.glide.Glide;
 import com.example.searchcountries2.R;
 import com.example.searchcountries2.model.CountryInfo;
 import com.example.searchcountries2.network.DetailActivity;
@@ -40,7 +40,7 @@ public class CountryAdapter extends RecyclerView.Adapter<CountryAdapter.Holder> 
         String flag = countryInfoList.get(position).getFlag();
         String name = countryInfoList.get(position).getName();
         holder.countryName.setText(name);
-    //    Glide.with(context).load(flag).into(holder.countryFlag);
+        Glide.with(context).load(flag).into(holder.countryFlag);
     }
 
     @Override
